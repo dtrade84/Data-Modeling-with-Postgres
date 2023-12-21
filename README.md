@@ -52,4 +52,10 @@ The files in the repsitory include:
 
 * create_tables.py - Drops and creates taqbles. This file is run to reset tables before each time ETL scripts is ran.
 
+* etl.py - Reads and procesess files from song_dat and log_data and loads them into tables.
+
+* README.md - Read Me file, includes project description, description of data, files, etc.
+
+* sql_queries.py - Contains all SQL queries.
+
 
