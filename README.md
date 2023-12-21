@@ -1,8 +1,5 @@
 # Data Modeling with Postgres
-
-
-
-
+<br>
 
 ## Introduction
 
