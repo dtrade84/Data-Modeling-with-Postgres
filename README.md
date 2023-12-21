@@ -1,5 +1,6 @@
 # Data Modeling with Postgres  
 
+<br />
 
 ## Introduction
 
@@ -14,6 +15,7 @@ We will also be creating an ETL pipeline that transfers data from two JSON files
 
 Then we will be testing this database and ETL pipeline by running queries givento us by the Sparkify analytics team to compare results with theirs. 
 
+<br />
 
 ## Datasets
 
@@ -26,19 +28,22 @@ The files are partitioned by the first three letters of each song's track ID.
 
 For example, here are filepaths to two files in this dataset:  
 
+<br />
 
 
 > song_data/A/B/C/TRABCEI128F424C983.json
 >
 > song_data/A/A/B/TRAABJL12903CDCF1A.json  
 
-  
+<br />  
 
 And, an example what a single song file looks like:  
 
+<br /> 
 
 > {"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}  
 
+<br /> 
 
 ## Repository 
 
@@ -58,6 +63,7 @@ The files in the repsitory include:
 
 * sql_queries.py - Contains all SQL queries.
 
+<br /> 
 
 ## How to Run
 
